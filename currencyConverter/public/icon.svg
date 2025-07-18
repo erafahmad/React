@@ -1,0 +1,13 @@
+import { HugeiconsIcon } from '@hugeicons/react';
+import { BankIcon } from '@hugeicons-pro/core-stroke-standard';
+
+function App() {
+  return (
+    <HugeiconsIcon
+      icon={BankIcon}
+      size={24}
+      color="#000000"
+      strokeWidth={1.5}
+    />
+  );
+}
